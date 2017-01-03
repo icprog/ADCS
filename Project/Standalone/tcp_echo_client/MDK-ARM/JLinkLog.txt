@@ -1,0 +1,77 @@
+
+T1BA4 024:096 SEGGER J-Link V4.68a Log File (0003ms, 0007ms total)
+T1BA4 024:096 DLL Compiled: Apr 12 2013 13:26:50 (0004ms, 0008ms total)
+T1BA4 024:096 Logging started @ 2014-11-17 15:20 (0004ms, 0008ms total)
+T1BA4 024:100 JLINK_SetWarnOutHandler(...) (0000ms, 0008ms total)
+T1BA4 024:100 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0009ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 024:102 
+  ***** Error: Can not connect to J-Link via USB.JLINK_GetDeviceFamily()  returns 0 (0001ms, 0011ms total)
+
+  ***** API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T1BA4 082:558 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1BA4 082:559 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1BA4 082:561 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1BA4 084:581 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0000ms, 0016ms total)
+T1BA4 084:584 JLINK_IsOpen()  returns 0x00 (0000ms, 0016ms total)
+T1BA4 084:584 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0001ms, 0017ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 084:585 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1BA4 092:597 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0000ms, 0019ms total)
+T1BA4 092:600 JLINK_IsOpen()  returns 0x00 (0000ms, 0019ms total)
+T1BA4 092:600 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0001ms, 0020ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 092:601 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0021ms total)
+T1BA4 095:604 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0021ms total)
+T1BA4 095:604 JLINK_EnableLog(...) (0000ms, 0021ms total)
+T1BA4 095:604 JLINK_SetWarnOutHandler(...) (0000ms, 0021ms total)
+T1BA4 095:604 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0022ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 095:605 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1BA4 100:084 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0000ms, 0023ms total)
+T1BA4 100:087 JLINK_IsOpen()  returns 0x00 (0000ms, 0023ms total)
+T1BA4 100:087 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0001ms, 0024ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 100:089 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1BA4 102:445 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0000ms, 0026ms total)
+T1BA4 102:448 JLINK_IsOpen()  returns 0x00 (0000ms, 0026ms total)
+T1BA4 102:448 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0001ms, 0027ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 102:449 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0029ms total)
+T1BA4 104:205 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0001ms, 0030ms total)
+T1BA4 104:206 JLINK_EnableLog(...) (0000ms, 0030ms total)
+T1BA4 104:206 JLINK_SetWarnOutHandler(...) (0000ms, 0030ms total)
+T1BA4 104:206 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0002ms, 0032ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1BA4 104:208 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0001ms, 0034ms total)
+T1BA4 113:205 JLINK_Close() (0000ms, 0034ms total)
+T1BA4 113:206 JLINK_Close() (0001ms, 0035ms total)

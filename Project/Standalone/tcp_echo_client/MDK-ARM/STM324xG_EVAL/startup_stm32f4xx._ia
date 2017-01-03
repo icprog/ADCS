@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I f:\Keil_v5\ARM\RV31\INC
+-I f:\Keil_v5\ARM\CMSIS\Include
+-I f:\Keil_v5\ARM\Inc\ST\STM32F4xx
+--pd "__UVISION_VERSION SETA 514"
+--list .\stm324xg_eval\startup_stm32f4xx.lst --xref -o .\stm324xg_eval\startup_stm32f4xx.o --depend .\stm324xg_eval\startup_stm32f4xx.d "startup_stm32f4xx.s"

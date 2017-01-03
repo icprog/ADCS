@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\..\..\Libraries\STM32F4x7_ETH_Driver\inc -I..\..\..\..\Utilities\STM32_EVAL\Common -I..\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\include -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\include\lwip -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\include\netif -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\include\ipv4 -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\port\STM32F4x7 -I..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\port\STM32F4x7\Standalone -I..\..\..\..\Libraries\CMSIS -I..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\Utilities\Third_Party -I..\inc
+-I f:\Keil_v5\ARM\RV31\INC
+-I f:\Keil_v5\ARM\CMSIS\Include
+-I f:\Keil_v5\ARM\Inc\ST\STM32F4xx
+-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_STM324xG_EVAL -DARM_MATH_CM4
+-o .\stm324xg_eval\misc.o --omf_browse .\stm324xg_eval\misc.crf --depend .\stm324xg_eval\misc.d "..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c"
